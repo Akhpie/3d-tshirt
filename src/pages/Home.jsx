@@ -18,7 +18,7 @@ const Home = () => {
         <motion.section className="home" {...slideAnimation("left")}>
           <motion.header {...slideAnimation("down")}>
             <img
-              src="./threejs.png"
+              src="./w-logo.png"
               alt="logo"
               className="w-8 h-8 object-contain"
             />
@@ -26,7 +26,7 @@ const Home = () => {
 
           <motion.div className="home-content" {...headContainerAnimation}>
             <motion.div {...headTextAnimation}>
-              <h1 className="head-text">
+              <h1 className="head-text gradient-text">
                 Let's <br className="xl:block hidden" /> Do it!
               </h1>
             </motion.div>
@@ -36,9 +36,10 @@ const Home = () => {
               className="flex flex-col gap-5"
             >
               <p className="max-w-md font-normal text-white text-base">
-                Create your unique and exclusive shirt with our Brand-new 3D
-                customization tool. <strong>Unleash your imagination</strong>{" "}
-                and define your own style
+                Design your one-of-a-kind shirt using our innovative 3D
+                customization tool.
+                <strong>Let your creativity run wild</strong> and create a style
+                that's uniquely yours.
               </p>
               <CustomButton
                 type="filled"
